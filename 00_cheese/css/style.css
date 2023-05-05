@@ -1,0 +1,419 @@
+/* ここから下に記載していく */
+body {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ここからヘッダー */
+.header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+}
+
+.test {
+  margin-right: auto;
+}
+
+.page-header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.main-nav {
+  /* 文字列を横に並べる */
+  display: flex;
+  justify-content: space-between;
+  font-size: 21px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.main-nav li {
+  /* リストの行間を50pxあける */
+  margin-left: 50px;
+}
+
+/* ここからメインビジュアル */
+.mainvisual {
+  text-align: center;
+  font-size: 40px;
+  /* color:white; */
+  /* 文字位置を後で変える */
+  position: relative;
+}
+
+.mainvisual2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+  height: auto;
+  width: auto;
+  color: white; /* text-align: center;   */
+  white-space: nowrap;
+}
+
+.mainvisual3 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  height: auto;
+  width: auto;
+  color: white;
+  white-space: nowrap;
+}
+
+/* ここからAbout */
+.content {
+  padding: 50px;
+  font-size: 30px;
+  color: orange;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.about-school {
+  padding-top: 60px;
+  font-size: 16px;
+  /* text-align: center; */
+}
+
+.about-meal {
+  padding-top: 40px;
+  font-size: 16px;
+  /* text-align: center; */
+}
+
+.about-pic {
+  display: flex;
+  justify-content: center;
+}
+
+/* ここからCourse */
+.Course-content {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.info {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+/* 右のテキスト */
+.kenshu {
+  display: flex;
+  background-color: #fafafa;
+  align-items: center;
+}
+
+/* 1列目 右：text 左：picture */
+.image_kenshu_left {
+  height: auto;
+  width: 50%;
+}
+
+/* text位置 */
+.kenshu_text {
+  width: 420px;
+  margin-top: 120px;
+  margin-left: 50px;
+  font-size: 18px;
+  margin-bottom: 120px;
+}
+
+.k {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.text1 {
+  text-align: left;
+}
+
+/* 2列目 左：text 右：picture */
+.image_kenshu-right {
+  height: auto;
+  width: 50%;
+}
+
+.kenshu-a {
+  display: flex;
+  font-size: 18px;
+  background-color: #fafafa;
+  align-items: center;
+}
+
+.kenshu_text-a {
+  width: 50%;
+  margin-top: 120px;
+  margin-right: 50px;
+  margin-left: 120px;
+  font-size: 18px;
+  margin-bottom: 120px;
+}
+
+.k-a {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.text1-a {
+  text-align: left;
+}
+
+/* 3列目 左：picture 右：text */
+.image_kenshu-b {
+  width: 50%;
+}
+
+.kenshu-b {
+  display: flex;
+  background-color: #fafafa;
+  align-items: center;
+}
+
+.kenshu_text-b {
+  width: 50%;
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-right: 120px;
+  font-size: 18px;
+  margin-bottom: 120px;
+}
+
+.k-b {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.text1-b {
+  text-align: left;
+}
+
+/* ここからNEWS */
+.NEWS-cheese {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: orange;
+}
+
+.news-news {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.pizza-cheese {
+  text-align: center;
+}
+
+/* hoverをつける */
+.pizza-cheese:hover {
+  transform: translate(0, 20px);
+}
+
+.text {
+  text-align: left;
+  font-size: 14px;
+  padding: 30px;
+  white-space: nowrap;
+}
+
+/* ここからbtn */
+.btn {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.btn2 {
+  margin: 60px;
+  background: orange;
+  color: azure;
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  border: none;
+}
+
+.btn:hover {
+  transform: translate(0, 20px);
+}
+
+/* ここからAccess */
+.access {
+  padding-top: 60px;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.text-comp {
+  padding-bottom: 60px;
+}
+
+.table-demo {
+  margin: auto;
+  margin-top: 60px;
+  font-size: 18px;
+  align-content: left;
+}
+
+.address-table1 {
+  border-right: none; /* 右の線を消す */
+  margin-bottom: 30px;
+}
+
+/* ここからAccess */
+.access-tag {
+  padding-top: 60px;
+}
+
+.school {
+  padding-right: 50px;
+}
+
+.text-comp {
+  text-align: center;
+  padding: 60px;
+}
+
+/* ここからCONTACT */
+.contact {
+  padding-top: 60px;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.text-contact {
+  padding-top: 60px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-contact-a {
+  padding-top: 60px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-contact-b {
+  padding-top: 30px;
+  font: size 16px;
+  text-align: center;
+}
+
+/* style.css */
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.tdd {
+  border-top: 1px solid black; /* 上の線を追加 */
+  border-bottom: 1px solid black; /* 下の線を追加 */
+  border-left: none; /* 左の線を消す */
+  border-right: none; /* 右の線を消す */
+  padding: 8px;
+}
+
+.select {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.contact-form-detail td:first-child {
+  border-right: 1px solid black; /* 左側のセルに右の線を追加 */
+}
+
+.contact-form-detail td:last-child {
+  border-left: 1px solid black; /* 右側のセルに左の線を追加 */
+}
+
+/* フォーム */
+.contact-form {
+  padding-top: 70px;
+}
+
+label {
+  box-sizing: border-box;
+  display: block;
+  padding: 12px;
+}
+
+.btn-last {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.btn3 {
+  background: orange;
+  color: azure;
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  margin: 60px;
+  border: none;
+}
+
+.btn-last:hover {
+  transform: translate(0, 20px);
+}
+
+footer {
+  margin-top: 140px;
+  background: #707070;
+  text-align: center;
+  padding: 30px;
+}
+
+footer p {
+  color: #fafafa;
+  font-size: 12px;
+}

@@ -1,0 +1,141 @@
+/* ここから下に記載していく */
+/* html {
+    font-size: 100%;
+/* } */
+
+.page-header {
+  /* ul達を横一列に　display:flex */
+    display: flex;
+    padding: 50px;
+    width: 80%;
+}
+
+.page-header {
+    display: flex;
+    width: auto;
+    padding: 50px;
+}
+
+.logo {
+  /* display: flex; */
+  /* font-size: 20px; */
+}
+
+.main-nav {
+  /* 文字列を横に並べる */
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 50px 50px;
+  /* list-style: none; */
+  /* margin-top: auto; */
+  /* list-style: ; */
+}
+
+.main-nav li {
+  /* 行間を開ける */
+    margin-left: 50px;
+}
+
+.mainvisual {
+    text-align: center;
+    font-size: 40px;
+  /* color:white; */
+  /* 文字位置を後で変える */
+  position: relative;
+  
+}
+
+.mainvisual2 {
+  position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+.mainvisual3 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  height: auto;
+  width: auto;
+  color: white;
+  /* 改行させないwhite-spase:nowrap */
+  white-space: nowrap;
+}
+
+/* position: absolute;
+    color: white;/
+    font-weight: bold/
+    dekatop:50%;
+    left:50%;
+    transform: translate(%);
+    padding:0px;
+    margin:0;
+    font-size: 50px;
+    height: auto;
+    width: auto;
+    color: white;
+/* 改行させないwhite-spase:nowrap */
+/* white-space: nowrap */
+/* } */ 
+
+
+.content {
+  font-size: 30px;
+  color: #ffd61a;
+}
+
+.about {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.about-school {
+  padding-top: 60px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.about-meal {
+  padding-top: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.about-passion {
+  padding-top: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.about-graduate {
+  padding-top: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.about-passion {
+  padding-top: 40px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.about-pic {
+  display: flex;
+  justify-content: center;
+  
+
+}
+.content {
+  padding-top: 60px;
+  text-align: center;
+}
